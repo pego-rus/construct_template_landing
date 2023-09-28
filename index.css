@@ -8,6 +8,7 @@ html {
 }
 :root {
     --main-color: #F2F2F2;
+    --font-color: #48555B;
 }
 body {
     display: block;
