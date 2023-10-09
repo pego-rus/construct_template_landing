@@ -288,7 +288,42 @@ input {
     flex-direction: column;
     justify-content: space-between;
 }
-.center {
+.flex__container__footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    letter-spacing: 0,85px;
+}
+
+.column1 {
+    height: 148px;
+    width: 250px;
+}
+.column2 {
+    height: 150px;
+    width: 262px;
+}
+.column3 {
+    height: 158px;
+    width: 141px;
+}
+.footer__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.column4 {
+    display:flex;
+    justify-content: space-between;
+    height: 13px;
+    width: 87px;
+}
+.column6 img {
 }
 .end {
     background-color: black;
